@@ -4,14 +4,14 @@ import streamlit as st
 # ─── Sayfa ayarları ───
 
 st.set_page_config(
-page_title=“Konaklama Hak Edis Sorgulama”,
-page_icon=“📍”,
-layout=“centered”,
+page_title="Konaklama Hak Edis Sorgulama",
+page_icon="📍",
+layout="centered",
 )
 
 # ─── CSS ───
 
-st.markdown(”””
+st.markdown("""
 
 <style>
 /* Genel arka plan */
