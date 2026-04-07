@@ -4,7 +4,7 @@ import streamlit as st
 # ─── Sayfa ayarları ───
 
 st.set_page_config(
-page_title=“Konaklama Hak Ediş Sorgulama”,
+page_title=“Konaklama Hak Edis Sorgulama”,
 page_icon=“📍”,
 layout=“centered”,
 )
@@ -94,7 +94,7 @@ RING_STOPS = [
 {“name”: “Tepeüstü Shell”,       “lat”: 40.9985, “lon”: 29.1768},
 {“name”: “Çekmeköy Metro”,       “lat”: 41.0328, “lon”: 29.1755},
 ]
- 
+
 DISTRICTS = {
 “Avrupa Yakası”: {
 “Arnavutköy”:   {“lat”: 41.185, “lon”: 28.739, “mahalleler”: [“Adnan Menderes”,“Anadolu”,“Arnavutköy Merkez”,“Atatürk”,“Baklalı”,“Balaban”,“Boğazköy İstiklal”,“Bolluca”,“Boyalık”,“Çilingir”,“Deliklikaya”,“Dursunköy”,“Durusu”,“Fatih”,“Hacımaşlı”,“Hadımköy”,“Haraççı”,“Hastane”,“Hicret”,“İmrahor”,“İslambey”,“Karlıbayır”,“Karaburun”,“Merkez”,“Nene Hatun”,“Sazan”,“Taşoluk”,“Tayakadın”,“Terkos”,“Yassıören”,“Yenikent”,“Yeniköy”,“Yıldırım”]},
